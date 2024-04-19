@@ -1,3 +1,8 @@
+OPTIONS = ['utworz', 'zarzadzaj', 'koniec']
+CREATE_OPTIONS = ['uczen', 'nauczyciel', 'wychowawca', 'koniec']
+MANAGE_OPTIONS = ['klasa', 'uczen', 'nauczyciel', 'wychowawca', 'koniec']
+
+
 class Student:
     def __init__(self, name, class_name):
         self.name = name
@@ -84,3 +89,49 @@ def manage_class_tutor():
             for student in students:
                 if student.class_name == class_tutor.class_managed:
                     print(student.name)
+
+
+def main():
+    while True:
+        print(f'Dostepne opcje: {OPTIONS}')
+        user_choice = input('Wybierz opcje: ')
+
+        if user_choice == 'utworz':
+            while True:
+                create_choice = input(f'Kogo chcesz dodac? {CREATE_OPTIONS}: ')
+                if create_choice == 'uczen':
+                    create_student()
+                elif create_choice == 'nauczyciel':
+                    create_teacher()
+                elif create_choice == 'wychowawca':
+                    create_class_tutor()
+                elif create_choice == 'koniec':
+                    break
+                else:
+                    print('Niepoprawna opcja, wybierz jeszcze raz.')
+
+        elif user_choice == 'zarzadzaj':
+            while True:
+                manage_choice = input(f'Co chcesz wyswietlic? {MANAGE_OPTIONS}: ')
+                if manage_choice == 'klasa':
+                    manage_class()
+                elif manage_choice == 'uczen':
+                    manage_student()
+                elif manage_choice == 'nauczyciel':
+                    manage_teacher()
+                elif manage_choice == 'wychowawca':
+                    manage_class_tutor()
+                elif manage_choice == 'koniec':
+                    break
+                else:
+                    print('Niepoprawna opcja, wybierz jeszcze raz.')
+
+        elif user_choice == 'koniec':
+            break
+
+        else:
+            print('Niepoprawna opcja, wybierz jeszcze raz.')
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,41 @@
+utworz
+uczen
+piotr w
+1a
+uczen
+adam b
+1b
+nauczyciel
+zenek d
+chemia
+1a
+nauczyciel
+leon c
+matma
+1b
+wychowawca
+antek f
+1a
+wychowawca
+stachu t
+1b
+koniec
+zarzadzaj
+klasa
+1a
+klasa
+1b
+uczen
+piotr w
+uczen
+adam b
+nauczyciel
+leon c
+nauczyciel
+zenek d
+wychowawca
+stachu t
+wychowawca
+antek f
+koniec
+koniec
