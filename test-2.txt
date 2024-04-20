@@ -1,0 +1,69 @@
+utworz
+uczen
+janek nowak
+1a
+uczen
+kasia nowakowska
+1a
+uczen
+adam kowalski
+1b
+uczen
+ela kowalczyk
+1b
+nauczyciel
+jan pierwszy
+matma
+1a
+1b
+
+nauczyciel
+leon drugi
+polak
+1a
+1b
+
+nauczyciel
+karol trzeci
+chemia
+1a
+
+nauczyciel
+piotr czwarty
+biola
+1b
+
+wychowawca
+zenek jakis
+1a
+wychowawca
+stachu inny
+1b
+koniec
+zarzadzaj
+klasa
+1a
+klasa
+1b
+uczen
+janek nowak
+uczen
+adam kowalski
+uczen
+kasia nowakowska
+uczen
+ela kowalczyk
+nauczyciel
+jan pierwszy
+nauczyciel
+leon drugi
+nauczyciel
+karol trzeci
+nauczyciel
+piotr czwarty
+wychowawca
+zenek jakis
+wychowawca
+stachu inny
+koniec
+koniec
